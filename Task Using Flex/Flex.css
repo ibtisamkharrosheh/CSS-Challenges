@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+.flex-container {
+    border: 7px solid black;
+    display: flex;
+    width: 90vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body > p{
+    padding-right: 37em;
+}
+.flex-container > div {
+    border: 6px solid black;
+    width: 15vw;
+    margin: 20px;
+    padding: 10px;
+    text-align: left;
+    line-height: 50px;
+    height: 7em;
+    font-size: 15px;
+}
