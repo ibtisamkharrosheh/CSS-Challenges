@@ -1,17 +1,11 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    flex-direction: column;
-}
 .flex-container {
     border: 7px solid black;
     display: flex;
-    width: 90vh;
+    width: 800px;
+    height: 800px;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
     flex-wrap: wrap;
 }
 body > p{
@@ -19,11 +13,11 @@ body > p{
 }
 .flex-container > div {
     border: 6px solid black;
-    width: 15vw;
+    width: 250px;
     margin: 20px;
     padding: 10px;
     text-align: left;
     line-height: 50px;
-    height: 7em;
+    height: 150px;
     font-size: 15px;
 }
